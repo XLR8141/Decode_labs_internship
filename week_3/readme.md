@@ -1,1 +1,2 @@
-
+# Project 3: Personalization and Recommendation Logic
+The third project explores pattern alignment through similarity math and vector mapping. Instead of simple binary overlaps, this engine uses TF-IDF logic to transform user interests and item attributes into mathematical vectors. This method allows the system to reward specific technical descriptors while penalizing generic high-frequency words that carry less informational value. The recommendation logic calculates the cosine similarity between a user's profile and a library of items to bridge the gap between raw preferences and relevant content. By mapping everything to a shared vocabulary, the system can rank items by their mathematical score to deliver personalized results that align precisely with user intent.
